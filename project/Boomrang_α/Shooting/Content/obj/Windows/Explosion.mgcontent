@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/g018a1264/Desktop/Shooting09ボス完成/Shooting/Content/Explosion.wav</SourceFile>
+  <SourceTime>2014-11-30T09:33:06+09:00</SourceTime>
+  <DestFile>C:/Users/g018a1264/Desktop/Shooting09ボス完成/Shooting/Content/bin/Windows/Explosion.xnb</DestFile>
+  <DestTime>2019-01-07T16:16:29.6488296+09:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
