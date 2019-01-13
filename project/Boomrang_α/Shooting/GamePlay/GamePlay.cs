@@ -39,7 +39,10 @@ namespace Shooting
 
             characterManager = new CharacterManager(gameManager);
             characterManager.AddCharacter(new Player(new Vector2(Screen.Width / 2, 696), gameManager, characterManager));
-            characterManager.AddCharacter(new Enemy(new Vector2(Screen.Width / 2 , 504), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(Screen.Width / 2 , 300), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy2(new Vector2(Screen.Width / 3, 300), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy3(new Vector2(Screen.Width / 4, 300), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy4(new Vector2(Screen.Width - 200, 300), gameManager, characterManager));
             //enemyGenerator = new EnemyGenerator("enemy.txt");
         }
         public void Update()

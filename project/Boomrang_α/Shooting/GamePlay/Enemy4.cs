@@ -9,34 +9,36 @@ namespace Shooting
 {
     class Enemy4 : Character
     {
-        private Vector2 basePosition;   //回転の中心座
-        private float angle;            //回転角
-
         public Enemy4(Vector2 position, GameManager gameManager, ICharacterMediator mediator)
-            : base(CharacterID.Enemy, "Enemy64", position, 32.0f, gameManager, mediator)
+            : base(CharacterID.Enemy4, "air_flow", position, 32.0f, gameManager, mediator)
         {
-            basePosition = position;
-            angle = 0.0f;
         }
         public override void Update()
         {
-            basePosition = basePosition + new Vector2(-2.0f, 0.0f);
-            double radian = angle / 180 * Math.PI;  //角度をラジアンに
-            position.X = basePosition.X + (float)Math.Cos(radian) * 64.0f;
-            position.Y = basePosition.Y + (float)Math.Sin(radian) * 64.0f;
-            angle = angle + 4.0f;
-
-            if (position.X < (0.0f - radius))
-            {
-                isDead = true;
-            }
+            //Vector2 speed;
+            //if (mediator.IsCharacterDead(CharacterID.Player))
+            //{
+            //    speed = new Vector2(-1, 0);
+            //}
+            //else
+            //{
+            //    speed = mediator.GetCharacterPosition(CharacterID.Player) - position;
+            //    speed.Normalize();
+            //    speed.X = -1.0f;     //バックしない
+            //}
+            //speed.Normalize();
+            //position = position + speed * 3.0f;
+            //if (position.X < (0.0f - radius))
+            //{
+            //    isDead = true;
+            //}
         }
         public override void Hit(Character character)
         {
             if (isDead == true) return;
             if ((int)character.GetCharacterID() / (int)CharacterID.CheckNumber == (int)CharacterID.PlayerSide)//プレイヤーグループと当たる
             {
-                isDead = true;
+                //isDead = true;
                 gameManager.SetScore(gameManager.GetScore() + 10);
                 mediator.AddCharacter(new Explosion(position, gameManager, mediator));
             }

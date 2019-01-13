@@ -7,6 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Shooting
 {
+    // 通常のブロッククラス
     class Enemy : Character
     {
         public Enemy(Vector2 position, GameManager gameManager, ICharacterMediator mediator)

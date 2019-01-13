@@ -28,6 +28,8 @@ namespace Shooting
         private float kaiten = 0;
         private float cos;
         private float sin;
+        // 気流用のsin反転用フラグ
+        private bool NotSin = false;
         //private bool couse = false;
         //private float count = 1;
 
@@ -37,23 +39,32 @@ namespace Shooting
         public Abbb(Vector2 position, GameManager gameManager, ICharacterMediator mediator)
             : base(CharacterID.PlayerBullet, "boomerang", position, 24.0f, gameManager, mediator)
         {
-            origin = position;
+            origin = position + new Vector2(96,96);
             rotateHeight = 96.0f;
-            radian = 270.0f;
+            radian = 0.0f;
             hide = false;
         }
         public override void Update()
         {          
+
             //円移動
             //弾のＸ座標 = 回転軸のＸ座標 + cos(回転軸からの角度) * 回転軸からの距離
             //弾のＹ座標 = 回転軸のＹ座標 + sin(回転軸からの角度) * 回転軸からの距離
             cos = (float)Math.Cos(radian);                                                                                                         
             sin = (float)Math.Sin(radian);
+
             radian += ((float)Math.PI / 180);//回転軸からの距離を右分増加
 
 
             position.X = origin.X + -cos * rotateHeight;
-            position.Y = origin.Y + sin * rotateHeight;
+            if(NotSin)
+            {
+                position.Y = origin.Y + -sin * rotateHeight;
+            }
+            else
+            {
+                position.Y = origin.Y + sin * rotateHeight;
+            }
 
 
             kaiten -= 0.5f;
@@ -64,7 +75,22 @@ namespace Shooting
         }
         public override void Hit(Character character)
         {
-            if (character.GetCharacterID() == CharacterID.Enemy )
+            if(character.GetCharacterID() == CharacterID.Enemy2)
+            {
+                rotateHeight += 32;
+            }
+            if (character.GetCharacterID() == CharacterID.Enemy3)
+            {
+                rotateHeight -= 16;
+            }
+            if(character.GetCharacterID() == CharacterID.Enemy4)
+            {
+                NotSin = true;
+            }
+
+            if (character.GetCharacterID() == CharacterID.Enemy  ||
+                character.GetCharacterID() == CharacterID.Enemy2 ||
+                character.GetCharacterID() == CharacterID.Enemy3)
             {
                 
                 

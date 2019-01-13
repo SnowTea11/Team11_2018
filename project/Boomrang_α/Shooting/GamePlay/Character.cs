@@ -15,6 +15,9 @@ namespace Shooting
         Player = PlayerSide * CheckNumber,
         PlayerBullet,        
         Enemy = EnemySide * CheckNumber,
+        Enemy2,
+        Enemy3,
+        Enemy4,
         EnemyBullet,
         EnemyStorm, //追加
         EnemyBoss,  //追加
