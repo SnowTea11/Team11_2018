@@ -26,6 +26,10 @@ namespace Shooting
 
             return current && !previous;
         }
+        public bool IsKeyPush(Keys key)
+        {
+            return currentKey.IsKeyDown(key);
+        }
         public Vector2 KeyVelocity()//ゲッター
         {
             return keyVelocity;
@@ -38,6 +42,8 @@ namespace Shooting
         private void UpdateKeyVelocity(KeyboardState keyState)
         {
             keyVelocity = Vector2.Zero;
+
+            //if()
 
             if (keyState.IsKeyDown(Keys.Right))     // 右
             {

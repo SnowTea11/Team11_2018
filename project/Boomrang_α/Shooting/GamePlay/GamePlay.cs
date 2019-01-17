@@ -38,11 +38,20 @@ namespace Shooting
             gameManager.SetScore(0);
 
             characterManager = new CharacterManager(gameManager);
-            characterManager.AddCharacter(new Player(new Vector2(Screen.Width / 2, 696), gameManager, characterManager));
-            characterManager.AddCharacter(new Enemy(new Vector2(Screen.Width / 2 , 300), gameManager, characterManager));
-            characterManager.AddCharacter(new Enemy2(new Vector2(Screen.Width / 3, 300), gameManager, characterManager));
-            characterManager.AddCharacter(new Enemy3(new Vector2(Screen.Width / 4, 300), gameManager, characterManager));
-            characterManager.AddCharacter(new Enemy4(new Vector2(Screen.Width - 200, 300), gameManager, characterManager));
+            characterManager.AddCharacter(new Player(new Vector2(600, 600), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(600 , 408), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(792, 408), gameManager, characterManager));
+            //characterManager.AddCharacter(new Enemy(new Vector2(600, 216), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(792, 216), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(886, 504), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(696, 504), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(696, 312), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy(new Vector2(504, 312), gameManager, characterManager));
+            //characterManager.AddCharacter(new Enemy(new Vector2(792, 168), gameManager, characterManager));
+            //characterManager.AddCharacter(new Enemy2(new Vector2(886, 312), gameManager, characterManager));
+            //characterManager.AddCharacter(new Enemy(new Vector2(744, 168), gameManager, characterManager));
+            characterManager.AddCharacter(new Enemy3(new Vector2(600, 216), gameManager, characterManager));
+            //characterManager.AddCharacter(new Enemy4(new Vector2(Screen.Width - 200, 300), gameManager, characterManager));
             //enemyGenerator = new EnemyGenerator("enemy.txt");
         }
         public void Update()

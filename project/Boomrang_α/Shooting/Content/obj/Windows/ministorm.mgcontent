@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/G018A1238/チーム制作/授業後期本番/Boomrang_α/Shooting/Content/ministorm.png</SourceFile>
-  <SourceTime>2019-01-10T10:14:42.4176789+09:00</SourceTime>
-  <DestFile>C:/G018A1238/チーム制作/授業後期本番/Boomrang_α/Shooting/Content/bin/Windows/ministorm.xnb</DestFile>
-  <DestTime>2019-01-10T10:19:34.1936164+09:00</DestTime>
+  <SourceFile>C:/Users/g018a1264/Desktop/Boomrang_α/Shooting/Content/ministorm.png</SourceFile>
+  <SourceTime>2016-09-07T16:46:52+09:00</SourceTime>
+  <DestFile>C:/Users/g018a1264/Desktop/Boomrang_α/Shooting/Content/bin/Windows/ministorm.xnb</DestFile>
+  <DestTime>2019-01-16T09:00:42.9970366+09:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

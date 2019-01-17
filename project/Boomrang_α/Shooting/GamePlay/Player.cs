@@ -20,7 +20,11 @@ namespace Shooting
         }
         public override void Update()
         {
-            position = position + input.KeyVelocity() * 8;
+            if (input.IsKeyDown(Keys.Right)) position.X = position.X + 48;
+            if (input.IsKeyDown(Keys.Left)) position.X = position.X - 48;
+            if (input.IsKeyDown(Keys.Up)) position.Y = position.Y - 48;
+            if (input.IsKeyDown(Keys.Down)) position.Y = position.Y + 48;
+            //position = position + input.KeyVelocity() * 8;
 
             if (position.X < radius) position.X = radius;
             if (position.X > Screen.Width - radius)

@@ -26,6 +26,12 @@ namespace Shooting
         private double radian;
         private bool hide;
         private float kaiten = 0;
+
+        //１フレーム前のサイン、コサイン
+        private float bCos;
+        private float bSin;
+
+        //サイン、コサイン
         private float cos;
         private float sin;
         // 気流用のsin反転用フラグ

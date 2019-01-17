@@ -12,7 +12,7 @@ namespace Shooting
         private int shotCounter;
         private Random random;
         public Enemy5(Vector2 position, GameManager gameManager, ICharacterMediator mediator)
-            : base(CharacterID.Enemy, "Enemy64", position, 32.0f, gameManager, mediator)
+            : base(CharacterID.Enemy, "Enemy64", position, 24.0f, gameManager, mediator)
         {
             random = gameManager.GetRandom();
             shotCounter = random.Next(0, 20) + random.Next(0, 20);

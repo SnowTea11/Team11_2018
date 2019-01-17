@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/G018A1238/チーム制作/授業後期本番/Boomrang_α/Shooting/Content/hit.wav</SourceFile>
-  <SourceTime>2019-01-10T10:14:42.4166793+09:00</SourceTime>
-  <DestFile>C:/G018A1238/チーム制作/授業後期本番/Boomrang_α/Shooting/Content/bin/Windows/hit.xnb</DestFile>
-  <DestTime>2019-01-10T10:19:31.6035395+09:00</DestTime>
+  <SourceFile>C:/Users/g018a1264/Desktop/Boomrang_α/Shooting/Content/hit.wav</SourceFile>
+  <SourceTime>2015-07-08T15:17:18+09:00</SourceTime>
+  <DestFile>C:/Users/g018a1264/Desktop/Boomrang_α/Shooting/Content/bin/Windows/hit.xnb</DestFile>
+  <DestTime>2019-01-16T09:00:38.8123502+09:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

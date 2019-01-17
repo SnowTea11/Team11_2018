@@ -10,7 +10,7 @@ namespace Shooting
     class Enemy4 : Character
     {
         public Enemy4(Vector2 position, GameManager gameManager, ICharacterMediator mediator)
-            : base(CharacterID.Enemy4, "air_flow", position, 32.0f, gameManager, mediator)
+            : base(CharacterID.Enemy4, "air_flow", position, 24.0f, gameManager, mediator)
         {
         }
         public override void Update()

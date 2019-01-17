@@ -11,7 +11,7 @@ namespace Shooting
     class Enemy3 : Character
     {
         public Enemy3(Vector2 position, GameManager gameManager, ICharacterMediator mediator)
-            : base(CharacterID.Enemy3, "Enemy64", position, 32.0f, gameManager, mediator)
+            : base(CharacterID.Enemy3, "Enemy64", position, 24.0f, gameManager, mediator)
         {
         }
         public override void Update()
