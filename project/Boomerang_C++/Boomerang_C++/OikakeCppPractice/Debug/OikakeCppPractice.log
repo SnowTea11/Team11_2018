@@ -1,0 +1,80 @@
+﻿  Actor2D.cpp
+  Actor3D.cpp
+  ActorBase.cpp
+  ActorManager.cpp
+  Bullet.cpp
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\bullet\bullet.cpp(38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\bullet\bullet.cpp(40): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Enemy.cpp
+  Player.cpp
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\player\player.cpp(34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Score.cpp
+  TimerUI.cpp
+  FPS.cpp
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\application\fps\fps.cpp(7): warning C4244: '初期化中': 'const float' から 'const int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\application\fps\fps.cpp(49): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+  GameApplication.cpp
+  GameFrame.cpp
+  LoadData.cpp
+  Window.cpp
+  Collision.cpp
+  Box.cpp
+  Circle.cpp
+  ShapeBase2D.cpp
+  ShapeBase.cpp
+  Input.cpp
+  コードを生成中...
+  コンパイル中...
+  KeyBoard.cpp
+  main.cpp
+  Bezier.cpp
+  Convert.cpp
+  Math.cpp
+  Matrix4.cpp
+  Quaternion.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Renderer.cpp
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(41): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(44): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(43): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(61): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(60): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(59): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(66): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(90): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  SceneManager.cpp
+  SceneNull.cpp
+  FadeManager.cpp
+  GameMain.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\g018a1238\チーム制作\授業後期本番\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\gamemain\gamemain.cpp(50): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Result.cpp
+  Title.cpp
+  Tutorial.cpp
+  Color.cpp
+  CSVLoader.cpp
+  Random.cpp
+  コードを生成中...
+  コンパイル中...
+  Timer.cpp
+  Utility.cpp
+  World.cpp
+  コードを生成中...
+  OikakeCppPractice.vcxproj -> C:\G018A1238\チーム制作\授業後期本番\Boomerang_C++\Boomerang_C++\Debug\OikakeCppPractice.exe
