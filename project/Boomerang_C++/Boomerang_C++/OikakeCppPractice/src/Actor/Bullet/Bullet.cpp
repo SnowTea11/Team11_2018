@@ -7,7 +7,7 @@
 #include"Application/Window/Window.h"
 
 Bullet::Bullet(IWorld * world, const Vector2 & position)
-	: Actor2D(world, "Bullet", position, std::make_shared<Circle>(Vector2::Zero, 8.0f))
+	: Actor2D(world, "boomerang", position, std::make_shared<Circle>(Vector2::Zero, 24.0f))
 {
 }
 
@@ -20,11 +20,11 @@ void Bullet::OnInitialize()
 	NotSin = false;
 	count = 60;
 
-	origin = position;
-	rotateHeight = 96.0f;
-	kaiten = 0;
-	radian = 2.0f;
-	hide = false;
+	origin = position;		// 初期位置を回転軸にする
+	rotateHeight = 96.0f;	// 回転軸からの距離
+	spin = 0;				// 回転速度
+	radian = 2.0f;			// 回転軸からの角度
+	hide = false;			// 描画するかどうかのフラグ
 }
 
 void Bullet::OnUpdate(float deltaTime)
@@ -43,20 +43,19 @@ void Bullet::OnUpdate(float deltaTime)
 	radian += ((float)Math::PI / 180);
 
 	//Xの移動
-	position.x = origin.x + -cos * rotateHeight;
+	position.x = origin.x + cos * rotateHeight * deltaTime;
 
 	//Yの移動
 	if (NotSin)
 	{
-
-		position.y = origin.y + -sin * rotateHeight;
+		position.y = origin.y + -sin * rotateHeight * deltaTime;
 	}
 	else
 	{
-		position.y = origin.y + sin * rotateHeight;
+		position.y = origin.y + sin * rotateHeight * deltaTime;
 	}
 	//ブーメランの回転速度
-	kaiten -= 3.0f;
+	spin -= 3.0f;
 
 	//プレイヤーの現在位置
 	nextPosition = position;
@@ -67,7 +66,7 @@ void Bullet::OnUpdate(float deltaTime)
 
 void Bullet::OnDraw(Renderer & renderer)
 {
-	renderer.DrawTexture(Assets::Texture::Boomerang, position, Vector2(24, 24), Vector2(1, 1), kaiten, Color::White);
+	renderer.DrawTexture(Assets::Texture::Boomerang, position, Vector2(24, 24), Vector2(1, 1), spin, Color::White);
 
 }
 
@@ -85,6 +84,8 @@ void Bullet::OnCollide(const HitInfo & hitInfo)
 
 	float distanse = (float)Math::SquareRoot((nextPosition.x - origin.x) * (nextPosition.x - origin.x)
 		+ (nextPosition.y - origin.y) * (nextPosition.y - origin.y));
+
+
 
 }
 
