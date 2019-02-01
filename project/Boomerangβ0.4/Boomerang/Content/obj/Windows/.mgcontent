@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/tutorial.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/air_flow.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/block.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/cursor.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/cursur.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/dotted.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/dotted_right.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/enemy.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/gameplay.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/hiscore.bmp</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/player.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/player_right.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/player_sd.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/rankA.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/rankB.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/rankC.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/rankS.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/result.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/score.bmp</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/stage.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/star_off.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/star_on.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/start.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/timer.bmp</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/title.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/tuto_boomerang.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/boomerang.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/bumper.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/form.png</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/boomerangSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/bumperSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/decideSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/en_voiceSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/formSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/inputSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/resultSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/throwSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/blockSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/gameplayBGM.mp3</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/resultBGM.mp3</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/titleBGM.mp3</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/air_flowSE.wav</File>
+    <File>C:/Users/g018a1264/Desktop/Boomerang/Boomerang/Content/stageBGM.mp3</File>
+  </SourceFiles>
+</SourceFileCollection>
