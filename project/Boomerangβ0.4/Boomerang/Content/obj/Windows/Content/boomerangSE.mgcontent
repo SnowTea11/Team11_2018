@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Yuuta Fukuda/Documents/School/Boomerangβ0.4/Boomerang/Content/boomerangSE.wav</SourceFile>
+  <SourceTime>2019-02-03T02:49:57.8021568+09:00</SourceTime>
+  <DestFile>C:/Users/Yuuta Fukuda/Documents/School/Boomerangβ0.4/Boomerang/Content/bin/Windows/Content/boomerangSE.xnb</DestFile>
+  <DestTime>2019-02-03T02:56:48.1554124+09:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2018-12-09T01:35:54+09:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2018-12-09T01:35:54+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

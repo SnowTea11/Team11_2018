@@ -15,23 +15,7 @@ namespace Boomerang
         }
         public override void Update()
         {
-            //Vector2 speed;
-            //if (mediator.IsCharacterDead(CharacterID.Player))
-            //{
-            //    speed = new Vector2(-1, 0);
-            //}
-            //else
-            //{
-            //    speed = mediator.GetCharacterPosition(CharacterID.Player) - position;
-            //    speed.Normalize();
-            //    speed.X = -1.0f;     //バックしない
-            //}
-            //speed.Normalize();
-            //position = position + speed * 3.0f;
-            //if (position.X < (0.0f - radius))
-            //{
-            //    isDead = true;
-            //}
+            
         }
         public override void Hit(Character character)
         {
@@ -40,7 +24,6 @@ namespace Boomerang
             {
                 //isDead = true;
                 gameManager.SetScore(gameManager.GetScore() + 10);
-                //mediator.AddCharacter(new Explosion(position, gameManager, mediator));
             }
         }
     }

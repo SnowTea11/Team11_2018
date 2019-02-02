@@ -15,7 +15,6 @@ namespace Boomerang
         }
         public override void Update()
         {
-            //position = position + new Vector2(-4.0f, 0.0f);
             if (position.X < (0.0f - radius))
             {
                 isDead = true;
@@ -28,7 +27,6 @@ namespace Boomerang
             {
                 //isDead = true;
                 gameManager.SetScore(gameManager.GetScore() + 10);
-                //mediator.AddCharacter(new Explosion(position, gameManager, mediator));
             }
         }
 
