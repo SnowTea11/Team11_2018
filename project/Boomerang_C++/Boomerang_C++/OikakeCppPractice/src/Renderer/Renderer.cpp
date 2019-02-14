@@ -35,10 +35,10 @@ void Renderer::LoadTexture(Assets::Texture id, const std::string & fileName)
 }
 
 
-void Renderer::DrawTexture(Assets::Texture id, const Vector2 & position, const Vector2 & center, const Vector2 & scale, float angle, const Color& color)
+void Renderer::DrawTexture(Assets::Texture id, const Vector2 & position, const Vector2 & center, const Vector2 & scale, float angle, const Color& color, float bright)
 {
 	SetDrawBlendMode(DX_BLENDMODE_ALPHA, static_cast<int>(color.a * 255.0f));
-	SetDrawBright(color.r * 255.0f, color.g * 255.0f, color.b * 255.0f);
+	SetDrawBright(color.r * 255.0f * bright, color.g * 255.0f * bright, color.b * 255.0f * bright);
 	DrawRotaGraph3(
 		position.x, position.y,
 		center.x, center.y,

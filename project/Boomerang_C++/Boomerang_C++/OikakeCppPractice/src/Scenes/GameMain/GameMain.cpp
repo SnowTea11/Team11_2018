@@ -47,7 +47,7 @@ void GameMain::Initialize() {
 
 	world->AddActor_Back(ActorGroup::Player, std::make_shared<Player>(world.get(), Vector2(0,670)));
 	world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
-	world->AddActor_Back(ActorGroup::UI, std::make_shared<TimerUI>(world.get(),1 * 60));
+	world->AddActor_Back(ActorGroup::UI, std::make_shared<TimerUI>(world.get(),1 * 1));
 	
 	//static_cast<Actor2D*>(world->FindActor("player").get());
 

@@ -18,6 +18,16 @@ enum class Scene {
 	Title,
 	//!チュートリアル
 	Tutorial,
+
+	//!ステージセレクト
+	StageSelect,
+	//ステージ
+	Stage1,
+	Stage2,
+	Stage3,
+	Stage4,
+	Stage5,
+
 	//!ゲームメイン
 	GameMain,
 	//!リザルト

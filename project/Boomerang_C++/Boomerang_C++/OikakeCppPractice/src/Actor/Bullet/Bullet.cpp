@@ -20,9 +20,9 @@ void Bullet::OnInitialize()
 	NotSin = false;
 	count = 60;
 
-	origin = position;		// ‰ŠúˆÊ’u‚ğ‰ñ“]²‚É‚·‚é
-	rotateHeight = 96.0f;	// ‰ñ“]²‚©‚ç‚Ì‹——£
-	spin = 0;				// ‰ñ“]‘¬“x
+	origin = position + Vector2(24,24);		// ‰ŠúˆÊ’u‚ğ‰ñ“]²‚É‚·‚é
+	rotateHeight = 144.0f;	// ‰ñ“]²‚©‚ç‚Ì‹——£
+	spin = 90;				// ‰ñ“]‘¬“x
 	radian = 2.0f;			// ‰ñ“]²‚©‚ç‚ÌŠp“x
 	hide = false;			// •`‰æ‚·‚é‚©‚Ç‚¤‚©‚Ìƒtƒ‰ƒO
 }
@@ -40,19 +40,19 @@ void Bullet::OnUpdate(float deltaTime)
 	sin = (float)Math::Sin(radian);
 
 	//‰ñ“]²‚©‚ç‚ÌŠp“x
-	radian += ((float)Math::PI / 180);
+	radian += ((float)Math::PI / 180) * 100;
 
 	//X‚ÌˆÚ“®
-	position.x = origin.x + cos * rotateHeight * deltaTime;
+	position.x = origin.x + cos * rotateHeight;
 
 	//Y‚ÌˆÚ“®
-	if (NotSin)
+	if (!NotSin)
 	{
-		position.y = origin.y + -sin * rotateHeight * deltaTime;
+		position.y = origin.y + -sin * rotateHeight;
 	}
 	else
 	{
-		position.y = origin.y + sin * rotateHeight * deltaTime;
+		position.y = origin.y + sin * rotateHeight;
 	}
 	//ƒu[ƒƒ‰ƒ“‚Ì‰ñ“]‘¬“x
 	spin -= 3.0f;

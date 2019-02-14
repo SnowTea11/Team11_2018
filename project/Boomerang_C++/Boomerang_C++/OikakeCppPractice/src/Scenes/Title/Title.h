@@ -69,4 +69,10 @@ private:
 	Renderer& renderer;
 	//!シーンが終了したか判定用
 	bool isEnd;
+	//alpha値の増減を変える用
+	bool frashCheck;
+	//点滅
+	float alphaChange;
+	//alphaの値
+	float alphaValue;
 };

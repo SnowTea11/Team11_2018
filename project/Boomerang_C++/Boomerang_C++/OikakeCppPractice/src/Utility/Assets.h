@@ -18,10 +18,15 @@ namespace Assets {
 		Player,
 		Player_Right,
 		Enemy,
+
 		Number,
+
 		Title,
 		Tutorial,
+		StageSelect,
 		Result,
+
+		Cursor,
 		Text,
 		Boomerang,
 		Bumper,

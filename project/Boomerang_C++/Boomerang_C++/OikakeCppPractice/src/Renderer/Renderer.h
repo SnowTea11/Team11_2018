@@ -47,8 +47,9 @@ public:
 	 * @param scale テクスチャの大きさ
 	 * @param angle テクスチャの回転角度（度数法）
 	 * @param color テクスチャの色
+	 * @param bright テクスチャの明るさ
 	 */
-	void DrawTexture(Assets::Texture id, const Vector2& position = Vector2(0, 0), const Vector2& center = Vector2(0, 0), const Vector2& scale = Vector2(1, 1), float angle = 0.0f, const Color& color = Color::White);
+	void DrawTexture(Assets::Texture id, const Vector2& position = Vector2(0, 0), const Vector2& center = Vector2(0, 0), const Vector2& scale = Vector2(1, 1), float angle = 0.0f, const Color& color = Color::White, float bright = 1.0f);
 	/**
 	* @brief 矩形を画面に描画
 	* @param id 登録した名前

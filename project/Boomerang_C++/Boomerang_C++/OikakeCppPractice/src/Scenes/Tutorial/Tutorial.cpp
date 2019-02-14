@@ -66,7 +66,7 @@ bool Tutorial::IsEnd() const
 
 Scene Tutorial::Next() const
 {
-	return Scene::GameMain;
+	return Scene::StageSelect;
 }
 
 void Tutorial::Finalize()
