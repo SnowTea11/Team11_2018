@@ -31,5 +31,9 @@ enum class Scene {
 	//!ゲームメイン
 	GameMain,
 	//!リザルト
-	Result
+	Result,
+	Result2,
+	Result3,
+	Result4,
+	Result5,
 };

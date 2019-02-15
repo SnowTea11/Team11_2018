@@ -23,7 +23,7 @@ void Bullet::OnInitialize()
 	origin = position + Vector2(24,24);		// 初期位置を回転軸にする
 	rotateHeight = 144.0f;	// 回転軸からの距離
 	spin = 90;				// 回転速度
-	radian = 2.0f;			// 回転軸からの角度
+	radian = 270.0f;			// 回転軸からの角度
 	hide = false;			// 描画するかどうかのフラグ
 }
 
@@ -40,7 +40,7 @@ void Bullet::OnUpdate(float deltaTime)
 	sin = (float)Math::Sin(radian);
 
 	//回転軸からの角度
-	radian += ((float)Math::PI / 180) * 100;
+	radian += ((float)Math::PI / 180) * 90;
 
 	//Xの移動
 	position.x = origin.x + cos * rotateHeight;
@@ -55,7 +55,7 @@ void Bullet::OnUpdate(float deltaTime)
 		position.y = origin.y + sin * rotateHeight;
 	}
 	//ブーメランの回転速度
-	spin -= 3.0f;
+	spin -= 8.0f;
 
 	//プレイヤーの現在位置
 	nextPosition = position;

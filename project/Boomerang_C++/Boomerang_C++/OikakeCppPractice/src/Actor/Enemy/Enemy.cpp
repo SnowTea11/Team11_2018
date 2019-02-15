@@ -45,5 +45,5 @@ void Enemy::OnCollide(const HitInfo & hitInfo)
 
 void Enemy::ReSpawn()
 {
-	position = Vector2(Random::Rangef(0.0f, Window::width - 64.0f), Random::Rangef(0.0f, Window::height - 64.0f));
+	//position = Vector2(Random::Rangef(0.0f, Window::width - 64.0f), Random::Rangef(0.0f, Window::height - 64.0f));
 }

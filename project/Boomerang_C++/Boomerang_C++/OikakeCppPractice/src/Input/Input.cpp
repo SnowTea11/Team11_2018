@@ -70,10 +70,10 @@ float Input::GetHorizontal() const
 {
 	float value = 0.0f;
 	if (keyBoard.IsDown(KEY_INPUT_A)) {
-		value = -12.0f;
+		value = -48.0f;
 	}
 	if (keyBoard.IsDown(KEY_INPUT_D)) {
-		value = 12.0f;
+		value = 48.0f;
 	}
 	return value;
 }

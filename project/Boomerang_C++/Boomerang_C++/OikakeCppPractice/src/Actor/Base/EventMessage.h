@@ -9,5 +9,8 @@
 enum class EventMessage {
 	Hit,
 	AddScore,
-	GameEnd
+	ThrowCountor,
+	EnemyCountor,
+	BeforeScene,
+	GameEnd,
 };

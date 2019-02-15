@@ -6,6 +6,7 @@
 
 class Renderer;
 enum class EventMessage;
+enum class Scene;
 
 /*! @class GameMainScene
 *   @brief  ゲームメインシーン
@@ -53,6 +54,7 @@ public:
 	*/
 	virtual void Finalize() override;
 
+
 private:
 	/**
 	* @brief イベントメッセージを受け取る
@@ -68,4 +70,8 @@ private:
 	Renderer& renderer;
 	//!シーンが終了したか判定用
 	bool isEnd;
+
+	Scene nextScene;
+
+	int CursorPosition;//カーソルの場所
 };

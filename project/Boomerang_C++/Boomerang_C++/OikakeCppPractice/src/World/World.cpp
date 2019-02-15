@@ -53,12 +53,14 @@ ActorPtr World::FindActor(ActorGroup group, const std::string& name) {
 	return actorManager.FindActor(group, name);
 }
 
-ActorPtr World::GetRoot(ActorGroup group) {
+ActorPtr World::GetRoot(ActorGroup group) 
+{
 	return actorManager.GetRoot(group);
 }
 
 
-void World::SendEventMessage(EventMessage message, void * param) {
+void World::SendEventMessage(EventMessage message, void * param)
+{
 	listener(message, param);
 	actorManager.HandleMessage(message, param);
 }

@@ -174,6 +174,10 @@
     <ClCompile Include="src\Scenes\FadeManager\FadeManager.cpp" />
     <ClCompile Include="src\Scenes\GameMain\GameMain.cpp" />
     <ClCompile Include="src\Scenes\Result\Result.cpp" />
+    <ClCompile Include="src\Scenes\Result\Result2.cpp" />
+    <ClCompile Include="src\Scenes\Result\Result3.cpp" />
+    <ClCompile Include="src\Scenes\Result\Result4.cpp" />
+    <ClCompile Include="src\Scenes\Result\Result5.cpp" />
     <ClCompile Include="src\Scenes\StageSelect\StageSelect.cpp" />
     <ClCompile Include="src\Scenes\Stage\Stage1.cpp" />
     <ClCompile Include="src\Scenes\Stage\Stage2.cpp" />
@@ -239,6 +243,10 @@
     <ClInclude Include="src\Scenes\FadeManager\FadeManager.h" />
     <ClInclude Include="src\Scenes\GameMain\GameMain.h" />
     <ClInclude Include="src\Scenes\Result\Result.h" />
+    <ClInclude Include="src\Scenes\Result\Result2.h" />
+    <ClInclude Include="src\Scenes\Result\Result3.h" />
+    <ClInclude Include="src\Scenes\Result\Result4.h" />
+    <ClInclude Include="src\Scenes\Result\Result5.h" />
     <ClInclude Include="src\Scenes\StageSelect\StageSelect.h" />
     <ClInclude Include="src\Scenes\Stage\Stage1.h" />
     <ClInclude Include="src\Scenes\Stage\Stage2.h" />

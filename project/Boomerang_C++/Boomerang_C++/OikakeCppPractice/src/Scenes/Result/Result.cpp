@@ -4,6 +4,7 @@
 #include"Input/Input.h"
 #include"Actor/UI/Score/Score.h"
 #include"World/World.h"
+#include "Scenes/Base/SceneManager.h"
 
 Result::Result(WorldPtr & world)
 	: isEnd(false)
@@ -25,16 +26,36 @@ void Result::LoadAssets()
 
 void Result::Initialize()
 {
+	CursorPosition = 120;
+
 	isEnd = false;
 	world->Initialize();
 	world->AddActor_Back(ActorGroup::UI, std::make_shared<Score>(world.get()));
-
 }
 
 void Result::Update(float deltaTime)
 {
+	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_RIGHT))
+	{
+		CursorPosition = 650;
+	}
+	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_LEFT))
+	{
+		CursorPosition = 120;
+	}
+
+	if (CursorPosition = 120)
+	{
+		nextScene = Scene::Stage2;
+	}
+	if (CursorPosition == 650)
+	{
+		nextScene = Scene::StageSelect;
+	}
+
 	Input::GetInstance().Update();
-	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_SPACE)) {
+	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_SPACE))
+	{
 		isEnd = true;
 	}
 	world->Update(deltaTime);
@@ -53,7 +74,7 @@ bool Result::IsEnd() const
 
 Scene Result::Next() const
 {
-	return Scene::Title;
+	return nextScene;
 }
 
 void Result::Finalize()
@@ -64,4 +85,6 @@ void Result::Finalize()
 
 void Result::HandleMessage(EventMessage message, void * param)
 {
+	
 }
+

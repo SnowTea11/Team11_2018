@@ -25,12 +25,12 @@ void Player::OnInitialize()
 void Player::OnUpdate(float deltaTime)
 {
 	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_SPACE)) {
-		world->AddActor_Back(ActorGroup::Boomerang, std::make_shared<Bullet>(world, position));
+		world->AddActor_Back(ActorGroup::Boomerang, std::make_shared<Bullet>(world, position + Vector2(0,-144)));
 	}
 	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_LEFT)) Direction = true;
 	if (Input::GetInstance().GetKeyBoard().IsDown(KEY_INPUT_RIGHT)) Direction = false;
 
-	position += Input::GetInstance().GetVelocity() * Speed * deltaTime;
+	position += Input::GetInstance().GetVelocity();
 	position.Clamp(Vector2::Zero, Vector2(Window::width - 48, Window::height - 48));
 }
 

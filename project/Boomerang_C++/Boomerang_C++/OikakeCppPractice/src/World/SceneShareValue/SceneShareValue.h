@@ -1,10 +1,11 @@
 #pragma once
 
-struct SceneShareValue {
+struct SceneShareValue 
+{
 	int score;
 
-	void Initialize() {
+	void Initialize() 
+	{
 		score = 0;
 	}
-
 };
