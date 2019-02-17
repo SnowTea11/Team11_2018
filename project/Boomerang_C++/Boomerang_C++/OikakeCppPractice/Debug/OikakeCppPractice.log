@@ -1,6 +1,6 @@
-﻿  GameFrame.cpp
-  SceneManager.cpp
-  SceneNull.cpp
+﻿  Enemy.cpp
+  Score.cpp
+  GameFrame.cpp
   GameMain.cpp
 c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
           with
@@ -110,7 +110,7 @@ c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\1
               _Ty=TimerUI
           ]
   c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage5.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
-  Title.cpp
   Tutorial.cpp
+  World.cpp
   コードを生成中...
   OikakeCppPractice.vcxproj -> C:\Users\g018a1264\Desktop\Boomerang_C++\Boomerang_C++\Debug\OikakeCppPractice.exe
