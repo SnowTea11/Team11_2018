@@ -26,6 +26,18 @@ namespace Assets {
 		StageSelect,
 		Result,
 
+		RankS,
+		RankA,
+		RankB,
+		RankC,
+
+		Star1,
+		Star2,
+		Star3,
+		StarFrame1,
+		StarFrame2,
+		StarFrame3,
+
 		Cursor,
 		Text,
 		Boomerang,

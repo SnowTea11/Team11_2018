@@ -1,3 +1,138 @@
-﻿  Result.cpp
-c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result.cpp(76): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+﻿  Bullet.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\bullet\bullet.cpp(38): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\bullet\bullet.cpp(40): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  Enemy.cpp
+  Player.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\actor\player\player.cpp(34): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  Score.cpp
+  TimerUI.cpp
+  Renderer.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(41): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(44): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(43): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(51): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(57): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(61): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(60): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(59): warning C4244: '引数': 'const float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(66): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\renderer\renderer.cpp(90): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  GameMain.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\gamemain\gamemain.cpp(50): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Result.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result.cpp(87): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Result2.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result2.cpp(83): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Result3.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result3.cpp(83): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Result4.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result4.cpp(83): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Result5.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\result\result5.cpp(83): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  StageSelect.cpp
+c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stageselect\stageselect.cpp(95): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  Stage1.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage1.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage2.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage2.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage3.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage3.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage4.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage4.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage5.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\g018a1264\desktop\boomerang_c++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage5.cpp(53): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Title.cpp
+  Tutorial.cpp
+  コードを生成中...
+  LINK : 前回のインクリメンタル リンクで C:\Users\g018a1264\Desktop\Boomerang_C++\Boomerang_C++\Debug\OikakeCppPractice.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
   OikakeCppPractice.vcxproj -> C:\Users\g018a1264\Desktop\Boomerang_C++\Boomerang_C++\Debug\OikakeCppPractice.exe

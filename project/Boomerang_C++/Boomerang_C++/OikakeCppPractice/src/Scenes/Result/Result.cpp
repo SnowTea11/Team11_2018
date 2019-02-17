@@ -23,6 +23,17 @@ void Result::LoadAssets()
 	renderer.LoadTexture(Assets::Texture::Result, "result.png");
 	renderer.LoadTexture(Assets::Texture::Number, "number.png");
 	renderer.LoadTexture(Assets::Texture::Cursor, "cursur.png");
+	renderer.LoadTexture(Assets::Texture::RankS, "rankS.png");
+	renderer.LoadTexture(Assets::Texture::RankA, "rankA.png");
+	renderer.LoadTexture(Assets::Texture::RankB, "rankB.png");
+	renderer.LoadTexture(Assets::Texture::RankC, "rankC.png");
+	renderer.LoadTexture(Assets::Texture::Star1, "star_on.png");
+	renderer.LoadTexture(Assets::Texture::Star2, "star_on.png");
+	renderer.LoadTexture(Assets::Texture::Star3, "star_on.png");
+	renderer.LoadTexture(Assets::Texture::StarFrame1, "star_off.png");
+	renderer.LoadTexture(Assets::Texture::StarFrame2, "star_off.png");
+	renderer.LoadTexture(Assets::Texture::StarFrame3, "star_off.png");
+
 }
 
 void Result::Initialize()
@@ -74,6 +85,20 @@ void Result::Draw() const
 {
 	renderer.DrawTexture(Assets::Texture::Result);
 	renderer.DrawTexture(Assets::Texture::Cursor, Vector2(CursorPosition, 620));
+
+	renderer.DrawTexture(Assets::Texture::RankS, Vector2(700, 430));
+	renderer.DrawTexture(Assets::Texture::RankA, Vector2(700, 430));
+	renderer.DrawTexture(Assets::Texture::RankB, Vector2(700, 430));
+	renderer.DrawTexture(Assets::Texture::RankC, Vector2(700, 430));
+
+	renderer.DrawTexture(Assets::Texture::Star1, Vector2(150, 150));
+	renderer.DrawTexture(Assets::Texture::Star2, Vector2(475, 150));
+	renderer.DrawTexture(Assets::Texture::Star3, Vector2(800, 150));
+	renderer.DrawTexture(Assets::Texture::StarFrame1, Vector2(150, 150));
+	renderer.DrawTexture(Assets::Texture::StarFrame2, Vector2(475, 150));
+	renderer.DrawTexture(Assets::Texture::StarFrame3, Vector2(800, 150));
+
+
 	world->Draw(renderer);
 
 }
