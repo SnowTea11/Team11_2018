@@ -1,0 +1,70 @@
+﻿  Stage2.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\yuuta fukuda\documents\school\boomerang_0.2++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage2.cpp(60): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage3.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\yuuta fukuda\documents\school\boomerang_0.2++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage3.cpp(63): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage4.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\yuuta fukuda\documents\school\boomerang_0.2++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage4.cpp(61): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  Stage5.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1865): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(1866): note: コンパイル対象の関数 テンプレート インスタンス化 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<World*,int>(World *&&,int &&)' のリファレンスを確認してください
+          with
+          [
+              _Ty=TimerUI
+          ]
+  c:\users\yuuta fukuda\documents\school\boomerang_0.2++\boomerang_c++\oikakecpppractice\src\scenes\stage\stage5.cpp(62): note: コンパイル対象の関数 テンプレート インスタンス化 'std::shared_ptr<TimerUI> std::make_shared<TimerUI,World*,int>(World *&&,int &&)' のリファレンスを確認してください
+  コードを生成中...
+  OikakeCppPractice.vcxproj -> C:\Users\Yuuta Fukuda\Documents\School\Boomerang_0.2++\Boomerang_C++\Debug\OikakeCppPractice.exe
